@@ -1,11 +1,15 @@
 package minitask4
 
-type biodata struct {
-	name        string
-	photo       string
-	email       string
-	age         int
-	phoneNumber string
-	isMarried   bool
-	education   []string
+type Biodata struct {
+	Name        string
+	Photo       string
+	Email       string
+	Age         int
+	PhoneNumber string
+	IsMarried   bool
+	Education   []Education
+}
+type Education struct {
+	Name  string
+	Major string
 }
