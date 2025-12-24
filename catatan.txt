@@ -1,0 +1,5 @@
+os.open, buka dia akan aman, tidak membuka file atau direktori salah, maka akan hasilkan error,
+ erronya output jadi error
+ nutup file, fungsi close, file.close()
+ - io.readAll, baca isi file, 
+ - isi data cukup di console 
