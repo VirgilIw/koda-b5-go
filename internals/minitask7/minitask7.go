@@ -3,6 +3,7 @@ package minitask7
 import "fmt"
 
 func Minitask7() {
+	fmt.Print("\nJawaban nomor 7: \n\n")
 	person1 := Person{
 		Name:        "lil claus",
 		Address:     "Jl. menuju surga",

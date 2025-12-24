@@ -5,6 +5,7 @@ import (
 )
 
 func Testing() {
+	fmt.Print("\nJawaban nomor 6: \n\n")
 	err1 := Minitask6("catatan.txt")
 	if err1 != nil {
 		fmt.Println("error:", err1)

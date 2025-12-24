@@ -8,6 +8,7 @@ import (
 )
 
 func PaymentMethod() {
+	fmt.Print("\nJawaban nomor 8: \n\n")
 	var fiktifPayments []int
 	// garbage collector, sampah dikumpulin
 	scanner := bufio.NewScanner(os.Stdin)

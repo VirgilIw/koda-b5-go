@@ -1,7 +1,9 @@
 package minitask5
 
-func Minitask5() {
+import "fmt"
 
+func Minitask5() {
+	fmt.Println("Jawaban no 5: ")
 	for {
 		showMenu()
 		/* question() menghasilkan false,
