@@ -1,5 +1,8 @@
 package minitask4
-
+type Education struct {
+	Name  string
+	Major string
+}
 type Biodata struct {
 	Name        string
 	Photo       string
@@ -9,7 +12,4 @@ type Biodata struct {
 	IsMarried   bool
 	Education   []Education
 }
-type Education struct {
-	Name  string
-	Major string
-}
+

@@ -41,5 +41,5 @@ func Minitask4() {
 		},
 	}
 
-	fmt.Println(user1)
+	fmt.Printf("%v\n", user1)
 }
